@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local FFmpeg files are not part of the source release.
+ffmpeg/
+
+# Virtual environments and build output.
+.venv/
+venv/
+env/
+build/
+dist/
+*.spec
+*.part
+
+# Test and tool output.
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
